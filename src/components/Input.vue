@@ -11,6 +11,7 @@
 			<input
 				class="form-control w-2"
 				list="datalistOptions"
+				multiple
 				id="exampleDataList"
 				placeholder="Type to search..."
 				v-model="tarea.lenguaje"

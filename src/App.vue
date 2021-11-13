@@ -13,4 +13,9 @@ export default {
 	},
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+a {
+	color: #000;
+	text-decoration: none;
+}
+</style>

@@ -65,4 +65,8 @@ form {
 	margin-top: 5rem;
 	padding: 0 3rem;
 }
+a {
+	color: black;
+	text-decoration: none;
+}
 </style>

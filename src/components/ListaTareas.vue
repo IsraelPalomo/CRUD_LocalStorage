@@ -24,13 +24,14 @@
 						<button @click="deleteTareas(item.id)" class="btn btn-danger me-2">Eliminar 🗑️</button>
 						<button class="btn btn-warning">
 							<router-link
+								id="link"
 								:to="{
 									name: 'Editar',
 									params: {
 										id: item.id,
 									},
 								}"
-								>Editar</router-link
+								>Editar ✏️</router-link
 							>
 						</button>
 					</td>

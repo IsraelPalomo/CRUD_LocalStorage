@@ -17,11 +17,11 @@
 			/>
 		</div>
 		<datalist id="datalistOptions">
-			<option value="San Francisco"></option>
-			<option value="New York"></option>
-			<option value="Seattle"></option>
-			<option value="Los Angeles"></option>
-			<option value="Chicago"></option>
+			<option value="Node.js"></option>
+			<option value="PHP"></option>
+			<option value="Python"></option>
+			<option value="Ruby"></option>
+			<option value="Go"></option>
 		</datalist>
 	</div>
 	<div class="row mb-3">

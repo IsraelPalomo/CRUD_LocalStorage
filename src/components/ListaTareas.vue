@@ -1,5 +1,5 @@
 <template>
-	<div class="row mb-3">
+	<div class="row mb-3 table-responsive">
 		<table class="table table-dark table-striped">
 			<thead>
 				<tr>
@@ -20,8 +20,8 @@
 					<td>{{ item.lenguaje }}</td>
 					<td>{{ item.numero }}</td>
 					<td>{{ item.importancia }}</td>
-					<td>
-						<button @click="deleteTareas(item.id)" class="btn btn-danger me-2">Eliminar 🗑️</button>
+					<td class="flex">
+						<button @click="deleteTareas(item.id)" class="btn btn-danger me-2">Eliminar</button>
 						<button class="btn btn-warning">
 							<router-link
 								id="link"
@@ -31,7 +31,7 @@
 										id: item.id,
 									},
 								}"
-								>Editar ✏️</router-link
+								>Editar</router-link
 							>
 						</button>
 					</td>
@@ -53,4 +53,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.flex {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	flex-wrap: nowrap;
+}
+</style>

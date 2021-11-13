@@ -35,9 +35,9 @@ export default {
 	height: 100vh;
 	form {
 		max-width: 30rem;
-		margin: 5rem auto 0 auto;
+
 		background-color: #323232;
-		padding: 2rem;
+
 		border-radius: 15px;
 		color: white;
 		h2 {

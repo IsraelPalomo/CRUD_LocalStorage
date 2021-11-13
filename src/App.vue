@@ -18,4 +18,7 @@ a {
 	color: #000;
 	text-decoration: none;
 }
+body {
+	overflow-x: hidden;
+}
 </style>

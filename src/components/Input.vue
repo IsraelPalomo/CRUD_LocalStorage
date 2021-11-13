@@ -63,7 +63,8 @@ export default {
 
 <style scoped>
 input {
-	width: 20rem;
+	width: 90%;
+	max-width: 30rem;
 	margin-left: 1rem;
 }
 .importante {

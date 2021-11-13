@@ -51,8 +51,9 @@ form {
 	margin: 5rem auto 0 auto;
 	background-color: #323232;
 	padding: 2rem;
-	border-radius: 15px;
+
 	color: white;
+
 	h2 {
 		margin-bottom: 3rem;
 	}
@@ -62,6 +63,7 @@ form {
 	}
 }
 .tareas {
+	margin: 0;
 	margin-top: 5rem;
 	padding: 0 3rem;
 }
